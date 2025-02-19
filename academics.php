@@ -9,7 +9,7 @@
     <?php 
     include('reuseable_files/style-php.html');
     ?>
-<body>
+<body> 
 <?php
 include("reuseable_files/header.html");
 ?>    
