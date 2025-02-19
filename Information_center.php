@@ -22,8 +22,8 @@ include("./reuseable_files/header.html");
         <!-- Left-side IQAC Navigation -->
         <nav id="iqac-nav">
             <ul>
-                <li><a href="/COLLEGE_WEB/information_center//ciruclar-notices.html" class="iqac-link">Circular & Notices</a></li>
-                <li><a href="/COLLEGE_WEB/information_center//newsletters.html" class="iqac-link">News Letter</a></li>
+                <li><a href="./information_center//ciruclar-notices.html" class="iqac-link">Circular & Notices</a></li>
+                <li><a href="./information_center//newsletters.html" class="iqac-link">News Letter</a></li>
                 <!-- More Sub-Navigation Links -->
             </ul>
         </nav>

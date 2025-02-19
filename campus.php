@@ -50,17 +50,17 @@ include("./reuseable_files/header.html");
     </p>
     <div class="flex flex-wrap justify-center gap-8">
       <div class="bg-white shadow-lg rounded-lg p-6 w-80">
-        <img src="/COLLEGE_WEB/assets//img//campus_life_pics//outdoor_stage.jpg" alt="Auditorium" class="rounded-md mb-4">
+        <img src="./assets//img//campus_life_pics//outdoor_stage.jpg" alt="Auditorium" class="rounded-md mb-4">
         <h3 class="text-xl font-bold text-green-600">State-of-the-Art Auditorium</h3>
         <p class="text-gray-600 mt-2">Our air-conditioned auditorium hosts various cultural and academic events.</p>
       </div>
       <div class="bg-white shadow-lg rounded-lg p-6 w-80">
-        <img src="/COLLEGE_WEB/assets//img//campus_life_pics//Gym.jpg" alt="Gym" class="rounded-md mb-4">
+        <img src="./assets//img//campus_life_pics//Gym.jpg" alt="Gym" class="rounded-md mb-4">
         <h3 class="text-xl font-bold text-green-600">Modern Gym Facilities</h3>
         <p class="text-gray-600 mt-2">Stay fit with our advanced gym equipment available for all students.</p>
       </div>
       <div class="bg-white shadow-lg rounded-lg p-6 w-80">
-        <img src="/COLLEGE_WEB/assets//img//campus_life_pics//ECO-GREEN.jpg" alt="Eco Club" class="rounded-md mb-4">
+        <img src="./assets//img//campus_life_pics//ECO-GREEN.jpg" alt="Eco Club" class="rounded-md mb-4">
         <h3 class="text-xl font-bold text-green-600">Eco Club</h3>
         <p class="text-gray-600 mt-2">Join our eco club and contribute to a greener tomorrow.</p>
       </div>

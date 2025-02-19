@@ -36,7 +36,7 @@
                     <div class="grid grid-cols-1 md:grid-cols-2">
                     <!-- Image Section -->
                         <div class="flex justify-center items-center p-8">
-                            <img class="w-[600px] h-[600px]" src="/COLLEGE_WEB/assets/img/college-view(4).jpeg" alt="Admission Image">
+                            <img class="w-[600px] h-[600px]" src="./assets/img/college-view(4).jpeg" alt="Admission Image">
                         </div>
 
 
