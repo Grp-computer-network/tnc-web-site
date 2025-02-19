@@ -21,9 +21,9 @@ include("./reuseable_files/header.html");
         <!-- Left-side IQAC Navigation -->
         <nav id="iqac-nav">
             <ul>
-                <li><a href="/COLLEGE_WEB_1/Administration//leadership.html" class="iqac-link">Leadership</a></li>
-                <li><a href="/COLLEGE_WEB_1/Administration//committee-msg.html" class="iqac-link">Committee Members</a></li>
-                <li><a href="/COLLEGE_WEB_1/Administration//Academic-Leadership.html" class="iqac-link">Academics Leadership</a></li>
+                <li><a href="./Administration//leadership.html" class="iqac-link">Leadership</a></li>
+                <li><a href="./Administration//committee-msg.html" class="iqac-link">Committee Members</a></li>
+                <li><a href="./Administration//Academic-Leadership.html" class="iqac-link">Academics Leadership</a></li>
                 <!-- More Sub-Navigation Links -->
             </ul>
         </nav>

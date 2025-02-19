@@ -147,7 +147,7 @@
         </div>
 
         <div class="school-box">
-            <img src="/COLLEGE_WEB_1/assets//center of excelence//sathya-mam.jpg" alt="Dr. J. Jayanthi">
+            <img src="./assets//center of excelence//sathya-mam.jpg" alt="Dr. J. Jayanthi">
             <div class="school-content">
                 <div class="school-name" style="background-color: #0caba8;">TNC Centre for e-governance</div>
                 <div class="school-details">
@@ -160,7 +160,7 @@
 
         <div class="school-box">
 
-            <img src="/COLLEGE_WEB/assets//center of excelence//A.rajeshwari-joe-Photoroom.png" alt="Dr. K. Shanthi">
+            <img src="./assets//center of excelence//A.rajeshwari-joe-Photoroom.png" alt="Dr. K. Shanthi">
             <div class="school-content">
                 <div class="school-name" style="background-color: #008f8c;">TNC Incbation Cell</div>
                 <div class="school-details">
@@ -172,7 +172,7 @@
         </div>
 
         <div class="school-box">
-            <img src="/COLLEGE_WEB/carrer_guidance_placement//K.PRABHAKARAN-Photoroom.png" alt="Dr. K. Umadevi">
+            <img src="./carrer_guidance_placement//K.PRABHAKARAN-Photoroom.png" alt="Dr. K. Umadevi">
             <div class="school-content">
                 <div class="school-name" style="background-color:  #0fc2c0;">Placement Cell</div>
                 <div class="school-details">
@@ -184,7 +184,7 @@
         </div>
 
         <div class="school-box">
-            <img src="/COLLEGE_WEB/assets//center of excelence//Rishi-Photoroom.png" alt="Dr. Shakila M.K">
+            <img src="./assets//center of excelence//Rishi-Photoroom.png" alt="Dr. Shakila M.K">
             <div class="school-content">
                 <div class="school-name" style="background-color:  #0caba8;">TNC Media Centre</div>
                 <div class="school-details">
@@ -196,7 +196,7 @@
         </div>
 
         <div class="school-box">
-            <img src="/COLLEGE_WEB/assets//center of excelence//MANGAI.jpg" alt="Dr. S. Nirmala Devi">
+            <img src="./assets//center of excelence//MANGAI.jpg" alt="Dr. S. Nirmala Devi">
             <div class="school-content">
                 <div class="school-name" style="background-color:  #008f8c;">Student Development Council</div>
                 <div class="school-details">
