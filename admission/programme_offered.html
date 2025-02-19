@@ -8,7 +8,7 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
         .container {
-    height: 700px;
+    height: 100%;
     width: 100%;
     background-color: #003366;
     color: #f2e3d5;
@@ -28,26 +28,28 @@
     width: 300px;
     background-color: #a30000;
     text-align: center;
+    padding-top:2px;
 }
 
 .wrapper {
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap; /* Added to allow wrapping of items on small screens */
-    gap: 10px; /* Added space between elements */
+    justify-content: space-around; /* Align the content evenly within the wrapper */
+    flex-wrap: wrap; 
+    gap: 10px;
 }
 
 .wrapper-2 {
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap; /* Added wrapping for mobile */
-    gap: 10px; /* Added space between elements */
+    justify-content: space-between; /* Align the content evenly within the wrapper */
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
 .courses-list {
     list-style: none;
     margin: 15px;
-    padding: 0; /* Removed padding to avoid spacing issues */
+    padding: 0;
+    flex-basis: 30%; /* Ensure each list item takes up 30% of the available space */
 }
 
 .courses-list li {
@@ -63,10 +65,6 @@
     margin-right: 10px;
 }
 
-h4 {
-    color: #fff;
-    font-weight: 400;
-}
 
 /* Mobile responsiveness */
 @media (max-width: 768px) {
@@ -130,32 +128,36 @@ h4 {
       <div class="wrapper-2">
         <div>
             <ul class="courses-list">
-               <li>B.A. English</li>
-               <li>B.B.A. Business Administration</li>
-               <li>B.Com. Accounting and Finance </li>
-               <li>B.Com. Corporate Secretaryship </li>
-               <li>B.Com. General </li>
-               <li>B.C.A. Computer Application </li>
-               <li>B.Sc. Computer Science </li>
-               <li>B.Sc. Computer Science with AI</li>
-               <li>B.Sc Mathematics</li>
-               <li>B.Sc. software application</li>
-               <li>B.Sc. Plant biology</li>
-               <li>B.S.W. Social Work</li>
-               <li>B.Com computer application</li>
-            </ul>
-        </div>
-        <div>
-          <ul class="courses-list">
-              <li>M.S.C computer scicence</li>
-              <li>M.Com. General</li>
-              <li>M.S.W social work</li>
-          </ul>
-        </div>
-        <div>
-          <ul class="courses-list">
-            <li>phd computer application</li>
-          </ul>
+                <li>B.Com.(General)</li>
+                <li>B.Com.(Corporate Secretaryship)</li>
+                <li>B.B.A. (Business Admimistration)</li>
+                <li>B.Sc. (Mathematics)</li>
+                <li>B.Sc. (Computer Science)</li>
+                <li>B.C.A. (Computer Applications)</li>
+                <li>B.Com. (Bank Management)</li>
+                <li>B.Com. (Accounting & Finance)</li>
+                <li>B.Sc. (Software Applications)</li>
+                <li>B.Com. (Computer Application)</li>
+                <li>B.Sc. (Chemistry)</li>
+                <li>B.A. (English Literature)</li>
+                <li>B.Sc. (Plant Biology & Plant Bio Technology)</li>
+                <li>B.S.W(Social Work)</li>
+                <li>B.A.(Tamil Literature)</li>
+                <li>B.Sc.(Criminology & Crimimnal Justice Science)</li>
+                <li>B.Sc. (Computer Science with Artificial Intelligence)</li>
+             </ul>
+         </div>
+         <div>
+           <ul class="courses-list">
+               <li>M.Sc.(computer Scicence)</li>
+               <li>M.Com.(General)</li>
+               <li>M.S.W (Social Work)</li>
+           </ul>
+         </div>
+         <div>
+           <ul class="courses-list">
+             <li>Ph.D. (Commerce)</li>
+           </ul>
         </div>
       </div>
     </div>
