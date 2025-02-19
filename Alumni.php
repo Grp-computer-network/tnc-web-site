@@ -122,7 +122,7 @@
             <img class="h-48 w-full object-cover rounded-lg" src="./assets/alumni_img/alumni_interface1.jpg" alt="">
         </div>
         <div>
-            <img class="h-48 w-full object-cover rounded-lg" src="./assets/alumni_img/alumni_interface2.jpg" alt="">
+            <img class="h-48 w-full object-cover rounded-lg" src=". assets/alumni_img/alumni_interface2.jpg" alt="">
         </div>
     </div>
     <?php
