@@ -38,11 +38,11 @@ include("reuseable_files/header.html");
         At Thiruthangal Nadar College, we are committed to fostering academic excellence and holistic development. Our diverse range of undergraduate (UG) and postgraduate (PG) programs are designed to meet industry demands while nurturing students' intellectual and personal growth.  
         </p>
         <p style="font-size: 1.3rem; text-align:justify">
-            The college was founded by the *Chennaivazh Thiruthangal Hindu Nadar Uravinmurai Dharma Fund, driven by a mission to support the underprivileged student community. The dedicated management is committed to providing accessible education, fostering students' intellectual and personal growth through the college’s motto, *"Knowledge is Power."** Our primary focus is to ignite the minds of students, dispelling ignorance and promoting enlightenment through a comprehensive educational experience.
+            The college was founded by the *Chennaivazh Thiruthangal Hindu Nadar Uravinmurai Dharma Fund, driven by a mission to support the underprivileged student community. The dedicated management is committed to providing accessible education, fostering students' intellectual and personal growth through the college’s motto, <b> "Knowledge is Power."</b>Our primary focus is to ignite the minds of students, dispelling ignorance and promoting enlightenment through a comprehensive educational experience.
         </p>
         <h2>Academic Programs</h2> <hr>
         <p style="font-size: 1.3rem; text-align:justify">
-            We offer a variety of *undergraduate (UG)* and *postgraduate (PG)* programs in the arts and sciences. These programs are designed to equip students with the knowledge, skills, and values necessary for personal and professional success. Accredited with a *B++* rating, Thiruthangal Nadar College has earned recognition for its commitment to academic excellence.
+            We offer a variety of <b> undergraduate (UG) and postgraduate (PG) </b> programs in the arts and sciences. These programs are designed to equip students with the knowledge, skills, and values necessary for personal and professional success. Accredited with a *B++* rating, Thiruthangal Nadar College has earned recognition for its commitment to academic excellence.
         </p>
         <h2>Student Life and Extracurricular Activities</h2><hr>
         <p style="font-size: 1.3rem; text-align:justify">

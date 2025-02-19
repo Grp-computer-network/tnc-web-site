@@ -48,7 +48,7 @@
         </p>
         <h2>Student Life and Extracurricular Activities</h2><hr>
         <p style="font-size: 1.3rem;text-align: justify;">
-            We believe in holistic development, and students are encouraged to participate in various clubs and organizations, including the <b>Eco Club,Student Development Council (SDC),National Service Scheme</b> (NSS), and <b>National Cadet Corps (NCC)</b>. These activities promote leadership, environmental awareness, and civic responsibility.
+            We believe in holistic development, and students are encouraged to participate in various clubs and organizations, including the <b>Eco Club,Student Development Council (SDC),National Service Scheme (NSS),</b>  and <b>National Cadet Corps (NCC)</b>. These activities promote leadership, environmental awareness, and civic responsibility.
         </p>
     </div>
    </section>
