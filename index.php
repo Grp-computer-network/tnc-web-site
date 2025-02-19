@@ -152,7 +152,7 @@
                 <div class="school-name" style="background-color: #0caba8;">TNC Centre for e-governance</div>
                 <div class="school-details">
                     <p>Mrs.Sathya</p>
-                    <p>M.C.A., M.E., NET.,</p>
+                    <p>M.C.A., M.E., NET.,{PHD)</p>
                     <p>Head E-goverence</p>
                 </div>
             </div>
@@ -160,7 +160,7 @@
 
         <div class="school-box">
 
-            <img src="./assets//center of excelence//A.rajeshwari-joe-Photoroom.png" alt="Dr. K. Shanthi">
+            <img src="./assets//center of excelence//rajeshwari-joe-mam.jpeg" alt="Dr. K. Shanthi">
             <div class="school-content">
                 <div class="school-name" style="background-color: #008f8c;">TNC Incbation Cell</div>
                 <div class="school-details">
@@ -172,7 +172,7 @@
         </div>
 
         <div class="school-box">
-            <img src="./carrer_guidance_placement//K.PRABHAKARAN-Photoroom.png" alt="Dr. K. Umadevi">
+            <img src="./assets//center of excelence//prabakaran-sir.jpeg" alt="Dr. K. Umadevi">
             <div class="school-content">
                 <div class="school-name" style="background-color:  #0fc2c0;">Placement Cell</div>
                 <div class="school-details">
@@ -184,7 +184,7 @@
         </div>
 
         <div class="school-box">
-            <img src="./assets//center of excelence//Rishi-Photoroom.png" alt="Dr. Shakila M.K">
+            <img src="./assets//center of excelence//rishi-sir.jpeg" alt="Dr. Shakila M.K">
             <div class="school-content">
                 <div class="school-name" style="background-color:  #0caba8;">TNC Media Centre</div>
                 <div class="school-details">
