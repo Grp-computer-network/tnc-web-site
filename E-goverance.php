@@ -5,12 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>E-goverance</title>
     <?php 
-    include('reuseable_files/style.html');
+    include('./reuseable_files/style.html');
     ?>
 </head>
 <body>
 <?php
-  include("reuseable_files/header.html");
+  include("./reuseable_files/header.html");
   ?>
 <!-- Card Blog -->
 <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
@@ -87,10 +87,10 @@
 <!-- End Card Blog -->
    <!-- footer section-->
    <?php
-       include("reuseable_files/footer.html");
+       include("./reuseable_files/footer.html");
      ?>   
        <?php
-        include('addmission_form/admission_form.html');
+        include('./addmission_form/admission_form.html');
         ?>
         <script  src="./script/script.js"></script>
         <script src="./script/addmission.js"></script>

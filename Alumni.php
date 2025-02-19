@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="css/tailwind.css" rel="stylesheet">
+    <link href="./css/tailwind.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <?php 
-    include('reuseable_files/style.html');
+    include('./reuseable_files/style.html');
     ?>
 </head>
 <body>
 <?php
-  include("reuseable_files/header.html");
+  include("./reuseable_files/header.html");
   ?>
   <br>
     <div class="bg-white py-0 px-4">
@@ -126,7 +126,7 @@
         </div>
     </div>
     <?php
-       include("reuseable_files/footer.html");
+       include("./reuseable_files/footer.html");
      ?>
         <script src="script/fixed-nav.js"></script>   
 </body>

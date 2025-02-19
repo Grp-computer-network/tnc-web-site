@@ -4,16 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
-    <link rel="stylesheet" href="css/IQAC/iqac.css">
-    <link rel="stylesheet" href="css/home-content-style/styles.css">
-    <link rel="stylesheet" href="css/home-content-style/footer.css">
-    <link rel="stylesheet" href="css/home-content-style/addmission.css">
-    <link href="css/tailwind.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/IQAC/iqac.css">
+    <link rel="stylesheet" href="./css/home-content-style/styles.css">
+    <link rel="stylesheet" href="./css/home-content-style/footer.css">
+    <link rel="stylesheet" href="./css/home-content-style/addmission.css">
+    <link href="./css/tailwind.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 </head>
 <body>
     <?php 
-    include('reuseable_files/header.html');
+    include('./reuseable_files/header.html');
     ?>
 <br>
     <header class="bg-[#a30000] text-white text-center py-6" >
@@ -97,12 +97,12 @@
     </div>
 
     <?php 
-    include("reuseable_files/footer.html");
+    include("./reuseable_files/footer.html");
     ?>
 
     <!-- Admission pop-up -->
     <?php 
-    include('addmission_form/admission_form.html');  
+    include('./addmission_form/admission_form.html');  
     ?>
 
     <script src="script/addmission.js"></script>

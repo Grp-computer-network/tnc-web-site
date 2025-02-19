@@ -8,14 +8,14 @@
     <link rel="icon" type="image/x-icon" href="/COLLEGE_WEB/assets//img//TNC_logo.png">
     <meta name="description" content="Thiruthangal nadar college offers quality education,holistics student development, and state-of-the-art facilities in North chennai.">
     <?php
-    include('reuseable_files/style.html');
+    include('./reuseable_files/style.html');
     ?>
 </head>
 
 <body>
     <!--- header section-->
     <?php
-    include("reuseable_files/header.html");
+    include("./reuseable_files/header.html");
     ?> <br>
     <!--Hero Banner-->
     <!------------------------------------------------------------------------------------------------ -->
@@ -62,9 +62,7 @@
             </div>
         </div>
         <!-- on the <p></p> add our recent events and news-->
-        <?php
-        include('reuseable_files/dynamic_upadate_files/current_news_events.php');
-        ?>
+       
         <a href="#" class="annual-calendar-btn">Annual Academic Calendar 2024-25 →</a>
     </div>
     </div>
@@ -236,7 +234,7 @@
     <!------------------------------------------------------------------------------------------------ -->
     <!-- footer section-->
     <?php
-    include("reuseable_files/footer.html");
+    include("./reuseable_files/footer.html");
     ?>
     <!--Pop-up Poster -->
     <div class="popup-container" id="popup">
@@ -248,7 +246,7 @@
     <!--------------------------------------------------------------------------------------------------->
     <!--Modal Pop-up Poster end-->
     <?php
-    include('addmission_form/admission_form.html');
+    include('./addmission_form/admission_form.html');
     ?>
     <!--Form End-->
     <script src="script/addmission.js"></script>

@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>research</title>
-    <link rel="icon" type="image/x-icon" href="/COLLEGE_WEB/assets//img//TNC_logo.png">
+    <link rel="icon" type="image/x-icon" href="./assets//img//TNC_logo.png">
     <?php 
-    include('reuseable_files/style-php.html');
+    include('./reuseable_files/style-php.html');
     ?>
     <link rel="stylesheet" href="css/tailwind.css">
 </head>
 <body>
     <?php 
-    include('reuseable_files/header.html');
+    include('./reuseable_files/header.html');
     ?>
     <div class="title-iqac">
             <h1 style='font-size:23px; font-weight:bold;'>Research</h1>
@@ -68,12 +68,12 @@
     </section>
 
     <?php 
-    include("reuseable_files/footer.html");
+    include("./reuseable_files/footer.html");
     ?>
 
      <!-- admission pop-up-->
     <?php 
-    include('addmission_form/admission_form.html');  
+    include('./addmission_form/admission_form.html');  
     ?>
     
     <script src="script/addmission.js"></script>

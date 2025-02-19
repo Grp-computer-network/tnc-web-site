@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adminstration</title>
     <?php 
-    include('reuseable_files/style-php.html');
+    include('./reuseable_files/style-php.html');
     ?>
    <link rel="stylesheet" href="css/tailwind.css">
 </head>
 <body>
 <?php
-include("reuseable_files/header.html");
+include("./reuseable_files/header.html");
 ?>    
   <div class="title-iqac">
         <h1 style='font-size:23px; font-weight:bold;'>Adminstration</h1>
@@ -137,10 +137,10 @@ include("reuseable_files/header.html");
         <p class="mt-2">🕘 Office Hours: Monday - Saturday | 9:00 AM - 5:00 PM</p>
         </section> <br>
 <?php 
-  include("reuseable_files/footer.html");
+  include("./reuseable_files/footer.html");
   ?>     
   <?php 
-       include('addmission_form/admission_form.html');
+       include('./addmission_form/admission_form.html');
         ?>
     <script src="script/addmission.js"></script>
     <script src="script/iqac.js"></script>

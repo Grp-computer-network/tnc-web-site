@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Information-Center</title>
     <?php 
-    include('reuseable_files/style.html');
+    include('./reuseable_files/style.html');
     ?>
-    <link rel="stylesheet" href="/COLLEGE_WEB/css//IQAC//iqac.css">
+    <link rel="stylesheet" href="./css//IQAC//iqac.css">
 </head>
 <body>
   <?php
-  include("reuseable_files/header.html");
+  include("./reuseable_files/header.html");
   ?>
      <!-- header-end -->
      <div class="title-iqac">
@@ -38,7 +38,7 @@
         </div>
         </section>
     <?php
-       include("reuseable_files/footer.html");
+       include("./reuseable_files/footer.html");
      ?>
       <script src="script/script.js"></script>
         <script src="script/iqac.js"></script>

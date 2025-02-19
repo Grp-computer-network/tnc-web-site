@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Academics</title>
-    <link rel="icon" type="image/x-icon" href="/COLLEGE_WEB/assets//img//TNC_logo.png">
+    <link rel="icon" type="image/x-icon" href="./assets//img//TNC_logo.png">
     </head>
     <?php 
     include('reuseable_files/style-php.html');
@@ -51,12 +51,12 @@ include("reuseable_files/header.html");
     </div>
 </section>
   <?php 
-  include("reuseable_files/footer.html");
+  include("./reuseable_files/footer.html");
   ?>     
              <!-- ----------------------- admission pop-up     -------------------------------------->
               
              <?php 
-        include('addmission_form/admission_form.html');
+        include('./addmission_form/admission_form.html');
         ?>
     <script src="script/addmission.js"></script>
     <script src="script/iqac.js"></script>
