@@ -31,14 +31,31 @@ include("reuseable_files/header.html");
     </nav>
 
     <!-- Main Content Section where the IQAC content will be loaded -->
-    <div id="iqac-content" class="about">
+    <div id="iqac-content">
+    <?php
+    // Check if 'page' parameter is set in URL
+    if (isset($_GET['page'])) {
+        $page = $_GET['page'];  
+        
+        // Define allowed pages to prevent security risks
+        $allowed_pages = ['academics-calender', 'academics-collabration', 'academics-leadership', 'Course_offered', 'E-content', 'libary', 'statutes'];
+
+        // If requested page is in the allowed list, include the corresponding HTML file
+        if (in_array($page, $allowed_pages)) {
+            include("academics/$page.html");
+        } else {
+            echo "<h2>Invalid Section</h2><p>Sorry, the page you requested does not exist.</p>";
+        }
+    } else {
+        // Default content when no submenu is selected
+        echo '
         <h2>Academics</h2>
         <hr>
         <p style="font-size: 1.3rem; text-align:justify" >
-        At Thiruthangal Nadar College, we are committed to fostering academic excellence and holistic development. Our diverse range of undergraduate (UG) and postgraduate (PG) programs are designed to meet industry demands while nurturing students' intellectual and personal growth.  
+        At Thiruthangal Nadar College, we are committed to fostering academic excellence and holistic development. Our diverse range of undergraduate (UG) and postgraduate (PG) programs are designed to meet industry demands while nurturing students intellectual and personal growth.  
         </p>
         <p style="font-size: 1.3rem; text-align:justify">
-            The college was founded by the *Chennaivazh Thiruthangal Hindu Nadar Uravinmurai Dharma Fund, driven by a mission to support the underprivileged student community. The dedicated management is committed to providing accessible education, fostering students' intellectual and personal growth through the college’s motto, <b> "Knowledge is Power."</b>Our primary focus is to ignite the minds of students, dispelling ignorance and promoting enlightenment through a comprehensive educational experience.
+            The college was founded by the *Chennaivazh Thiruthangal Hindu Nadar Uravinmurai Dharma Fund, driven by a mission to support the underprivileged student community. The dedicated management is committed to providing accessible education, fostering students intellectual and personal growth through the college’s motto, <b> "Knowledge is Power."</b>Our primary focus is to ignite the minds of students, dispelling ignorance and promoting enlightenment through a comprehensive educational experience.
         </p>
         <h2>Academic Programs</h2> <hr>
         <p style="font-size: 1.3rem; text-align:justify">
@@ -47,8 +64,11 @@ include("reuseable_files/header.html");
         <h2>Student Life and Extracurricular Activities</h2><hr>
         <p style="font-size: 1.3rem; text-align:justify">
             We believe in holistic development, and students are encouraged to participate in various clubs and organizations, including the *Eco Club, **Student Development Council (SDC), **National Service Scheme (NSS), and **National Cadet Corps (NCC)*. These activities promote leadership, environmental awareness, and civic responsibility.
-        </p>
-    </div>
+        </p>';
+    }
+    ?>
+</div>
+
 </section>
   <?php 
   include("./reuseable_files/footer.html");

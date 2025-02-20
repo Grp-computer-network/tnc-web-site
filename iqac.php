@@ -47,13 +47,31 @@
             </ul>
         </nav>
         <!-- Main Content Section where the IQAC content will be loaded -->
-        <div id="iqac-content">
-            <h2>Welcome to IQAC</h2>   <br>
-            <p style="font-size: 20px;padding: 10px; text-align:justify">Welcome to the official website of the Internal Quality Assurance Cell (IQAC) of [Thiruthangal Nadar College]. 
-            Our primary goal is to establish a culture of continuous improvement by ensuring that academic, administrative, and infrastructural processes meet the highest standards. We are committed to fostering a learning environment that promotes excellence in teaching, research, and overall institutional growth.
-            Through our various initiatives, we seek to engage all stakeholders in the process of self-assessment and feedback, which are crucial for driving innovation and quality enhancement. The IQAC aims to be driving forces in helping the institution achieve its long-term goals, in line with national and global standards.
-            We are always open to collaboration and feedback to help further our mission of quality improvement</p>
-        </div>
+        <div id="iqac-content" >
+    <?php
+    // Check if 'page' parameter is set in URL
+    if (isset($_GET['page'])) {
+        $page = $_GET['page'];  
+        
+        // Define allowed pages to prevent security risks
+        $allowed_pages = ['About_IQAC', 'Alumni', 'AQAR', 'Best_Practices', 'Feedback', 'Gallery', 'Institutional_Distinctiveness','Internal_Complaint_Committee','IQAC_Committee_Members','IQAC_Minutes_And_ATR','MOUs','NIRF','Quality_Initiatives','SSR_Cycle_II_Report','Templates'];
+
+        // If requested page is in the allowed list, include the corresponding HTML file
+        if (in_array($page, $allowed_pages)) {
+            include("IQAC/$page.html");
+        } else {
+            echo "<h2>Invalid Section</h2><p>Sorry, the page you requested does not exist.</p>";
+        }
+    } else {
+        // Default content when no submenu is selected
+        echo '
+        <h2>About Us</h2>
+        <hr>
+        <p><b>Thiruthangal Nadar College</b> is a leading institution established in 1997...</p>';
+    }
+    ?>
+</div>
+
         </section>
         <!-- footer -->
         <?php 
@@ -73,3 +91,9 @@
         <script src="script/fixed-nav.js"></script>
 </body>
 </html>
+
+<h2>Welcome to IQAC</h2>   <br>
+            <p style="font-size: 20px;padding: 10px; text-align:justify">Welcome to the official website of the Internal Quality Assurance Cell (IQAC) of [Thiruthangal Nadar College]. 
+            Our primary goal is to establish a culture of continuous improvement by ensuring that academic, administrative, and infrastructural processes meet the highest standards. We are committed to fostering a learning environment that promotes excellence in teaching, research, and overall institutional growth.
+            Through our various initiatives, we seek to engage all stakeholders in the process of self-assessment and feedback, which are crucial for driving innovation and quality enhancement. The IQAC aims to be driving forces in helping the institution achieve its long-term goals, in line with national and global standards.
+            We are always open to collaboration and feedback to help further our mission of quality improvement</p>

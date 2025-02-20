@@ -14,7 +14,7 @@
 include("./reuseable_files/header.html");
 ?>    
   <div class="title-iqac">
-        <h1 style='font-size:23px; font-weight:bold;'>Adminstration</h1>
+        <h1 style='font-size:23px; font-weight:bold;'>Administration</h1>
     </div>
     <!-- IQAC Section -->
     <section id="iqac-container">
@@ -29,12 +29,29 @@ include("./reuseable_files/header.html");
         </nav>
         <!-- Main Content Section where the IQAC content will be loaded -->
         <div id="iqac-content">
+    <?php
+    // Check if 'page' parameter is set in URL
+    if (isset($_GET['page'])) {
+        $page = $_GET['page'];  
+        
+        // Define allowed pages to prevent security risks
+        $allowed_pages = ['Academic-Leadership', 'committee-msg', 'leadership'];
+
+        // If requested page is in the allowed list, include the corresponding HTML file
+        if (in_array($page, $allowed_pages)) {
+            include("Administration/$page.html");
+        } else {
+            echo "<h2>Invalid Section</h2><p>Sorry, the page you requested does not exist.</p>";
+        }
+    } else {
+        // Default content when no submenu is selected
+        echo '
         <header class=" text-white text-center py-5"  style="margin: 20px; background-color:#003366">
         <h1 class="text-3xl font-bold">Administration</h1>
         <p class="text-lg">Meet the Leadership of Thiruthangal Nadar College</p>
     </header>
     <br>
-    <!-- Principal's Message -->
+    <!-- Principals Message -->
     <section class="max-w-4xl mx-auto bg-white shadow-lg rounded-lg p-6 mt-8">
         <h2 class="text-2xl font-bold text-blue-80" >Message from the Principal</h2>
         <p class="mt-4 text-gray-700">
@@ -213,8 +230,11 @@ include("./reuseable_files/header.html");
             <div class="bg-white p-5 shadow-md rounded-lg">
                 <h3 class="font-semibold">📌 Research & Innovation Committee</h3>
                 <p class="text-gray-700" style="margin-top: 10px;">Encourages student and faculty research projects.</p>
-            </div>
-        </div>
+            </div>';
+    }
+    ?>
+</div>
+
     </section>
     <br>
     

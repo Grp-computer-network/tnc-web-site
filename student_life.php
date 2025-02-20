@@ -36,8 +36,25 @@ include("./reuseable_files/header.html");
     </nav>        
 
     <!-- Main Content Section where the IQAC content will be loaded -->
-    <div id="iqac-content" class="about">
-    <section class="relative bg-green-500 text-white">
+    <div id="iqac-content">
+    <?php
+    // Check if 'page' parameter is set in URL
+    if (isset($_GET['page'])) {
+        $page = $_GET['page'];  
+        
+        // Define allowed pages to prevent security risks
+        $allowed_pages = ['anti-ragging-cell', 'diff-able', 'equal_opportunities', 'Health-facilities', 'internal_complaint_committee', 'NCC', 'NSS','ombudsperson','sports','student_grivenace'];
+
+        // If requested page is in the allowed list, include the corresponding HTML file
+        if (in_array($page, $allowed_pages)) {
+            include("student_life/$page.html");
+        } else {
+            echo "<h2>Invalid Section</h2><p>Sorry, the page you requested does not exist.</p>";
+        }
+    } else {
+        // Default content when no submenu is selected
+        echo '
+        <section class="relative bg-green-500 text-white">
     <div class="container mx-auto text-center py-16">
       <h2 class="text-2xl font-semibold mb-4">Explore the Vibrant Student Life</h2>
       <p class="text-lg mb-6" style="color:black">Learn, grow, and thrive in an environment that nurtures talent and inspires excellence.</p>
@@ -82,8 +99,11 @@ include("./reuseable_files/header.html");
         <p class="text-gray-600">Learn and grow with supportive peers and faculty who are committed to your success.</p>
       </div>
     </div>
-  </section>
-    </div>
+  </section>';
+    }
+    ?>
+</div>
+
 </section>
   <?php 
   include("./reuseable_files/footer.html");
@@ -97,3 +117,4 @@ include("./reuseable_files/header.html");
 <script src="script/fixed-nav.js"></script>  
 </body>
 </html>
+

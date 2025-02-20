@@ -31,7 +31,51 @@
         </nav>
         <!-- Main Content Section where the IQAC content will be loaded -->
         <div id="iqac-content">
-            <main class="container mx-auto px-4 py-8">
+    <?php
+    // Check if 'page' parameter is set in URL
+    if (isset($_GET['page'])) {
+        $page = $_GET['page'];  
+        
+        // Define allowed pages to prevent security risks
+        $allowed_pages = ['admission_guidelines', 'fee_refund', 'online_application', 'programme_offered'];
+
+        // If requested page is in the allowed list, include the corresponding HTML file
+        if (in_array($page, $allowed_pages)) {
+            include("admission/$page.html");
+        } else {
+            echo "<h2>Invalid Section</h2><p>Sorry, the page you requested does not exist.</p>";
+        }
+    } else {
+        // Default content when no submenu is selected
+        echo '
+        <h2>About Us</h2>
+        <hr>
+        <p><b>Thiruthangal Nadar College</b> is a leading institution established in 1997...</p>';
+    }
+    ?>
+</div>
+
+            </section>
+        </div>
+    </section>
+
+    <?php 
+    include('./reuseable_files/footer.html');
+    ?>
+
+    <!--Admission Form -->
+    <?php 
+       include('./addmission_form/admission_form.html'); 
+    ?>
+    <!--Form End-->  
+
+    <script src="script/addmission.js"></script>
+    <script src="script/iqac.js"></script>
+    <script src="script/fixed-nav.js"></script>  
+</body>
+</html>
+
+<main class="container mx-auto px-4 py-8">
                 <div class="bg-white shadow-lg rounded-lg overflow-hidden">
                     <div class="grid grid-cols-1 md:grid-cols-2">
                     <!-- Image Section -->
@@ -78,23 +122,3 @@
                         <h3 class="text-lg font-semibold text-indigo-700">Can international students apply?</h3>
                         <p class="text-gray-600 mt-2">Yes, we welcome applications from international students worldwide.</p>
                     </div>
-                </div>
-            </section>
-        </div>
-    </section>
-
-    <?php 
-    include('./reuseable_files/footer.html');
-    ?>
-
-    <!--Admission Form -->
-    <?php 
-       include('./addmission_form/admission_form.html'); 
-    ?>
-    <!--Form End-->  
-
-    <script src="script/addmission.js"></script>
-    <script src="script/iqac.js"></script>
-    <script src="script/fixed-nav.js"></script>  
-</body>
-</html>

@@ -32,7 +32,24 @@
 
         <!-- Main Content Section where the IQAC content will be loaded -->
         <div id="iqac-content">
-            <header class="bg-[#a30000] text-white text-center py-6">
+    <?php
+    // Check if 'page' parameter is set in URL
+    if (isset($_GET['page'])) {
+        $page = $_GET['page'];  
+        
+        // Define allowed pages to prevent security risks
+        $allowed_pages = ['central_facilities', 'phd_admission_guidelines', 'research_guidelines'];
+
+        // If requested page is in the allowed list, include the corresponding HTML file
+        if (in_array($page, $allowed_pages)) {
+            include("research/$page.html");
+        } else {
+            echo "<h2>Invalid Section</h2><p>Sorry, the page you requested does not exist.</p>";
+        }
+    } else {
+        // Default content when no submenu is selected
+        echo '
+        <header class="bg-[#a30000] text-white text-center py-6">
                 <h1 class="text-3xl font-bold">About Research Cell</h1>
             </header><br>
             <hr>
@@ -63,8 +80,11 @@
                         </div>
                     </div>
                 </section>
-            </main>
-        </div>
+            </main>';
+    }
+    ?>
+</div>
+
     </section>
 
     <?php 
@@ -81,3 +101,5 @@
     <script src="script/fixed-nav.js"></script>
 </body>
 </html>
+
+

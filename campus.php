@@ -32,9 +32,26 @@ include("./reuseable_files/header.html");
         </ul>
     </nav>
     <!-- Main Content Section where the IQAC content will be loaded -->
-    <div id="iqac-content" class="about">
+    <div id="iqac-content">
+    <?php
+    // Check if 'page' parameter is set in URL
+    if (isset($_GET['page'])) {
+        $page = $_GET['page'];  
+        
+        // Define allowed pages to prevent security risks
+        $allowed_pages = ['club_activities', 'cultural_activites', 'extension_activities', 'infrastrcture', 'student_council', 'student_support'];
+
+        // If requested page is in the allowed list, include the corresponding HTML file
+        if (in_array($page, $allowed_pages)) {
+            include("campus_life/$page.html");
+        } else {
+            echo "<h2>Invalid Section</h2><p>Sorry, the page you requested does not exist.</p>";
+        }
+    } else {
+        // Default content when no submenu is selected
+        echo '
         <!-- Header Section -->
-  <header class="bg-green-600 text-white">
+<header class="bg-green-600 text-white">
     <div class="container mx-auto p-6">
       <h1 class="text-3xl font-bold">Campus Life</h1>
       <p class="text-lg mt-2">Discover the vibrant life at Thiruthangal Nadar College.</p>
@@ -96,8 +113,11 @@ include("./reuseable_files/header.html");
         View Our Campus
       </a>
     </div>
-  </section>
-    </div>
+  </section>';
+    }
+    ?>
+</div>
+
 </section>
   <?php 
   include("./reuseable_files/footer.html");
@@ -112,3 +132,4 @@ include("./reuseable_files/header.html");
 <script src="script/fixed-nav.js"></script>  
 </body>
 </html>
+
