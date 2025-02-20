@@ -242,20 +242,19 @@
     <!--Pop-up Poster -->
 <!-- Full-Screen Pop-up Modal -->
   <!-- First Pop-up -->
-<div id="popup1" class="modal">
+<!-- <div id="popup1" class="modal">
   <div class="modal-content">
     <img src="" alt="First Announcement">
   </div>
   <button class="close-btn" onclick="closePopup('popup1', 'popup2')">Close</button>
 </div>
-
-<!-- Second Pop-up -->
-<div id="popup2" class="modal" style="display: none;">
+Second Pop-up -->
+<!-- <div id="popup2" class="modal" style="display: none;">
   <div class="modal-content">
     <img src="" alt="Second Announcement">
   </div>
   <button class="close-btn" onclick="closePopup('popup2', null)">Close</button>
-</div>
+</div> --> 
 
 
 
