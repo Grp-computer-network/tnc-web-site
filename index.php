@@ -22,27 +22,20 @@
     <!--  companies visisted -->
     <div class="counter-container">
         <div class="counter">
+            <h1 class="counter-title" >Companies Visited</h1>
             <div id="companiesVisited" class="counter-value">0+</div>
-            <i class="fa-regular fa-building"></i>
-            <h1 class="counter-title">Companies Visited</h1>
         </div>
-
         <div class="counter">
-            <div id="studentsPlaced" class="counter-value">0+</div>
-            <i class="fa-solid fa-users-line"></i>
             <h1 class="counter-title">No Of Students Placed</h1>
+            <div id="studentsPlaced" class="counter-value">0+</div>
         </div>
-
         <div class="counter">
-            <div id="studentsWithOffers" class="counter-value">0+</div>
-            <i class="fa-regular fa-user"></i>
             <h1 class="counter-title">Students With Multiple Offers</h1>
+            <div id="studentsWithOffers" class="counter-value">0+</div>
         </div>
-
         <div class="counter">
-            <div id="highestPackage" class="counter-value">0+</div>
-            <i class="fa-solid fa-road"></i>
             <h1 class="counter-title">Highest Package For Current Year</h1>
+            <div id="highestPackage" class="counter-value">0+</div>
         </div>
     </div>
     <!------------------------------------------------------------------------------------------------ -->
@@ -71,8 +64,17 @@
     <div class="profile-section">
         <div class="college-info-1">
             <h2>Thiruthangal Nadar College</h2>
-            <p style="text-align: justify;"> Thiruthangal Nadar College is renowned for its commitment to academic excellence and holistic student development. Our programs are designed to foster critical thinking, creativity, and a passion for lifelong learning. We aim to equip students with the skills needed to thrive in a dynamic and ever-evolving world.
-            </p>
+            <p style="text-align: justify;">Thiruthangal Nadar College, established in the year 1997 as the college for
+                   men was upgraded as a co-educational institution in the year 2002 to cater to the
+                   needs of the North Chennai Women and their empowerment. It is a Self-financing
+                   institution affiliated to the University of Madras. It was instituted by the magnanimous
+                   members of the Chennaivazh Thiruthangal Hindu Nadar Uravinmurai Dharma Fund with
+                   a deep sense of generosity and compassion to the under-privileged student community.
+                   The benevolent members of the Management have extended their exemplary services
+                   in the field of education with an exuberant spirit of facilitating and providing wider
+                   opportunities to the youth from different backgrounds. The motto of the institution
+                   "Knowledge is Power" is pre-eminently enshrined to ignite and enlighten the minds of
+                   the youngsters through education by dispelling the darkness of ignorance</p>
             <div class="accreditation">
                 <img src="./assets/img/Naac.logo.jpg" alt="NAAC Accreditation Badge">
                 <!-- <span>CGPA 2.90 - B++</span> -->
