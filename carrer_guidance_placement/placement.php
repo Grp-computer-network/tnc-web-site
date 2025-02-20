@@ -75,7 +75,7 @@
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-2 gap-8">
       <!-- Member 1 -->
       <div class="text-center">
-        <img class="rounded w-50 h-60 mx-auto" src="./K.PRABHAKARAN.jpg" alt="prabakaran">
+        <img class="rounded w-50 h-60 mx-auto" src=" ../assets//center of excelence//prabakaran-sir.jpeg" alt="prabakaran">
         <h3 class="text-xl font-medium text-gray-800 mt-4">Mr.K.Prabhakaran - Placement Officer</h3><br>
         <p class="text-gray-600">(Career Guidance and Placement Cell )</p><br>
         <p class="text-gray-600">Phone: +91 7871839700</p><br>
@@ -84,7 +84,7 @@
       </div>
       <!-- Member 2 -->
       <div class="text-center">
-        <img class="rounded w-50 h-60 mx-auto" src="./Rishi.jpg" alt="Rishi"><br>
+        <img class="rounded w-50 h-60 mx-auto" src="../assets//center of excelence//rishi-sir.jpeg" alt="Rishi"><br>
         <h3 class="text-xl font-medium text-gray-800 mt-4">Mr.J.Jothi Rishi Vignesh</h3>
         <p class="text-gray-600">(Career Guidance and Placement Cell )</p> <br>
         <p class="text-gray-600">Phone: +91 8825528317</p>
