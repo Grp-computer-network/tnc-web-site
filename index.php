@@ -41,22 +41,47 @@
     <!------------------------------------------------------------------------------------------------ -->
     <!--Campus tour -->
     <div class="container-5">
+        <!-- Left Section with Background Image and Video -->
         <div class="left-section">
-            <div class="video-wrapper">
-                <video autoplay muted controls>
-                    <source src="./assets/TNC-2.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
-            </div>
-            <div class="academic-info">
-                <h3>Academic Calendar</h3>
-                <p>2024-2025</p>
-                <a href="" class="cta-button">Campus Tour</a>
+            <video controls>
+                <source src="campus-tour.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            
+        </div>
+       <?php
+       include("./reuseable_files/db_reuse.php")
+       ?>
+        <!-- Right Section (Announcements & Events) -->
+        <div class="right-section">
+        <div class="right-section">
+        <div class="tabs">
+            <button id="tab-announcements" onclick="showSection('announcements')" class="tab-link active">ANNOUNCEMENTS</button>
+            <button id="tab-events" onclick="showSection('events')" class="tab-link">EVENTS</button>
+        </div>
+
+        <div id="announcements">
+            <div class="scroll-container">
+                <div class="scroll-content">
+                    <?php while ($row = $announcements_result->fetch_assoc()) { ?>
+                        <p class="announcement">📢 <?php echo $row['title']; ?> - <?php echo $row['date']; ?></p>
+                    <?php } ?>
+                </div>
             </div>
         </div>
-        <!-- on the <p></p> add our recent events and news-->
-       
-        <a href="#" class="annual-calendar-btn">Annual Academic Calendar 2024-25 →</a>
+
+        <div id="events" class="hidden">
+            <div class="scroll-container">
+                <div class="scroll-content">
+                    <?php while ($row = $events_result->fetch_assoc()) { ?>
+                        <p class="event">🎉 <?php echo $row['title']; ?> - <?php echo $row['date']; ?></p>
+                    <?php } ?>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+        <!-- <a href="#" class="annual-calendar-btn">Annual Academic Calendar 2024-25 →</a> -->
     </div>
     </div>
     <!------------------------------------------------------------------------------------------------ -->
@@ -240,26 +265,35 @@
     ?>
 
     <!-- First Pop-up -->
-<div id="popup1" class="modal">
+<!-- <div id="popup1" class="modal">
   <div class="modal-content">
     <img src="first-image.jpg" alt="First Announcement">
   </div>
   <button class="close-btn" onclick="closePopup('popup1', 'popup2')">Close</button>
 </div>
 
-<!-- Second Pop-up -->
-<div id="popup2" class="modal" style="display: none;">
+ Second Pop-up -->
+<!-- <div id="popup2" class="modal" style="display: none;">
   <div class="modal-content">
     <img src="second-image.jpg" alt="Second Announcement">
   </div>
   <button class="close-btn" onclick="closePopup('popup2', null)">Close</button>
-</div>
+</div> --> 
 
     <!--------------------------------------------------------------------------------------------------->
     <!--Modal Pop-up Poster end-->
     <?php
     include('./addmission_form/admission_form.html');
     ?>
+    <script>
+      function showSection(section) {
+            document.getElementById('announcements').style.display = (section === 'announcements') ? 'block' : 'none';
+            document.getElementById('events').style.display = (section === 'events') ? 'block' : 'none';
+            
+            document.getElementById('tab-announcements').classList.toggle('active', section === 'announcements');
+            document.getElementById('tab-events').classList.toggle('active', section === 'events');
+        }
+    </script>
     <!--Form End-->
     <script src="script/addmission.js"></script>
     <script src="script/fixed-nav.js"></script>

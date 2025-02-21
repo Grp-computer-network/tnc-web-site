@@ -32,7 +32,6 @@
                 <li><a href="IQAC/AQAR.html" class="iqac-link">AQAR</a></li>
                 <li><a href="IQAC/Best_Practices.html" class="iqac-link">Best Practices</a></li>
                 <li><a href="IQAC/Feedback.html" class="iqac-link">Feedback</a></li>
-                <li><a href="IQAC/Alumni.html" class="iqac-link">Alumni</a></li>
                 <li><a href="IQAC/Gallery.html" class="iqac-link">Gallery</a></li>
                 <li><a href="IQAC/Institutional_Distinctiveness.html" class="iqac-link">Institutional Distinctiveness</a></li>
                 <li><a href="IQAC/IQAC_Committee_Members.html" class="iqac-link">IQAC Committee Members</a></li>
