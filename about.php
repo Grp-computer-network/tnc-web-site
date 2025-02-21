@@ -22,13 +22,13 @@
        <!-- Left-side IQAC Navigation -->
     <nav id="iqac-nav">
         <ul>
-            <li><a href="about/history.html" class="iqac-link">History</a></li>
-            <li><a href="about/instutuional-development.html" class="iqac-link">Institutional Development Plan</a></li>
-            <li><a href="about/committee-msg.html" class="iqac-link">Committee of Management</a></li>
-            <li><a href="about/insitution-polices.html" class="iqac-link">Institution Policies</a></li>
-            <li><a href="about/organogram.html" class="iqac-link">Organogram</a></li>
-            <li><a href="about/annual-reports.html" class="iqac-link">Annual Reports</a></li>
-            <li><a href="about/accreditation.html" class="iqac-link">Accreditation</a></li>
+            <li><a href="./about/history.html" class="iqac-link">History</a></li>
+            <li><a href="./about/instutuional-development.html" class="iqac-link">Institutional Development Plan</a></li>
+            <li><a href="./about/committee-msg.html" class="iqac-link">Committee of Management</a></li>
+            <li><a href="./about/insitution-polices.html" class="iqac-link">Institution Policies</a></li>
+            <li><a href="./about/organogram.html" class="iqac-link">Organogram</a></li>
+            <li><a href="./about/annual-reports.html" class="iqac-link">Annual Reports</a></li>
+            <li><a href="./about/accreditation.html" class="iqac-link">Accreditation</a></li>
         </ul>
     </nav>
 

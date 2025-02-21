@@ -23,12 +23,12 @@ include("./reuseable_files/header.html");
     <!-- Left-side IQAC Navigation -->
     <nav id="iqac-nav">
         <ul>
-            <li><a href="campus_life/cultural_activites.html" class="iqac-link">Cultural Activities</a></li>
-            <li><a href="campus_life/student_council.html" class="iqac-link">Student council</a></li>
-            <li><a href="campus_life/student_support.html" class="iqac-link">Student support</a></li>
-            <li><a href="campus_life/club_activities.html" class="iqac-link">Club activities</a></li>
-            <li><a href="campus_life/infrastrcture.html" class="iqac-link">Infrastrcture</a></li>
-            <li><a href="campus_life/extension_activities.html" class="iqac-link">Extension Activity</a></li>
+            <li><a href="./campus_life/cultural_activites.html" class="iqac-link">Cultural Activities</a></li>
+            <li><a href="./campus_life/student_council.html" class="iqac-link">Student council</a></li>
+            <li><a href="./campus_life/student_support.html" class="iqac-link">Student support</a></li>
+            <li><a href="./campus_life/club_activities.html" class="iqac-link">Club activities</a></li>
+            <li><a href="./campus_life/infrastrcture.html" class="iqac-link">Infrastrcture</a></li>
+            <li><a href="./campus_life/extension_activities.html" class="iqac-link">Extension Activity</a></li>
         </ul>
     </nav>
     <!-- Main Content Section where the IQAC content will be loaded -->

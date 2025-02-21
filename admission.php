@@ -22,10 +22,10 @@
         <!-- Left-side IQAC Navigation -->
         <nav id="iqac-nav">
             <ul>
-                <li><a href="admission/programme_offered.html" class="iqac-link">Programme Offered</a></li>
-                <li><a href="admission/admission_guidelines.html" class="iqac-link">Guideliness For Admission</a></li>
-                <li><a href="admission/online_application.html" class="iqac-link">Online Application & Prospectus</a></li>
-                <li><a href="admission/fee_refund.html" class="iqac-link">Fee Refund Policy</a></li>
+                <li><a href="./admission/programme_offered.html" class="iqac-link">Programme Offered</a></li>
+                <li><a href="./admission/admission_guidelines.html" class="iqac-link">Guideliness For Admission</a></li>
+                <li><a href="./admission/online_application.html" class="iqac-link">Online Application & Prospectus</a></li>
+                <li><a href="./admission/fee_refund.html" class="iqac-link">Fee Refund Policy</a></li>
                 <!-- More Sub-Navigation Links -->
             </ul>
         </nav>
