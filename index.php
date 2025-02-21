@@ -255,5 +255,6 @@
     <script src="script/secretary_msg.js"></script>
     <script src="./script/script.js"></script>
     <script src="script/company-count.js"></script>
+    <script src="script/visitor_count.js"></script>
 </body>
 </html>

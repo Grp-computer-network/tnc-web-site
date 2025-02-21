@@ -116,7 +116,8 @@
 
     <script src="script/addmission.js"></script>
     <script src="script/iqac.js"></script>
-    <script src="script/fixed-nav.js"></script>  
+    <script src="script/fixed-nav.js"></script> 
+    <script src="script/visitor_count.js"></script> 
 </body>
 </html>
 

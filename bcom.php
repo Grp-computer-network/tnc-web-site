@@ -57,5 +57,6 @@
     <?php
     include("./reuseable_files/footer.html");
     ?>
+    <script src="script/visitor_count.js"></script>
 </body>
 </html>
