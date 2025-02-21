@@ -11,7 +11,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     if ($input_id === $admin_id && $input_password === $admin_password) {
         $_SESSION["loggedin"] = true;
-        header("Location: admin.php");
+        header("Location: add-events-news.php");
         exit();
     } else {
         $error = "Invalid ID or Password!";
