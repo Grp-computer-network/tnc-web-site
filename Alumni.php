@@ -34,7 +34,7 @@
                     <td class="border border-gray-300 px-4 py-2">Principal</td>
                   </tr>
                   <tr class="hover:bg-blue-100">
-                    <td class="border border-gray-300 px-4 py-2">Mr.K.ShunmugaRajan</td>
+                    <td class="border border-gray-300 px-4 py-2">Mr.K.ShanmugaRajan</td>
                     <td class="border border-gray-300 px-4 py-2">Vice President</td>
                   </tr>
                   <tr class="hover:bg-blue-100">

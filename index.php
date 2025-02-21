@@ -242,16 +242,18 @@
     <!-- First Pop-up -->
 <div id="popup1" class="modal">
   <div class="modal-content">
-    <img src="assets\img\Index_Page_Admission_Popup-1024x1024.jpg" alt="First Announcement">
+    <img src="assets\img\popup.jpeg" alt="First Announcement">
   </div>
   <button class="close-btn" onclick="closePopup('popup1', 'popup2')">Close</button>
 </div>
 
 <!-- Second Pop-up -->
 <div id="popup2" class="modal" style="display: none;">
-  <div class="modal-content">
-    <img src="assets\img\popup.jpeg" alt="Second Announcement">
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSelRRilYiG6tFUEdZ2tMqqZQxBCRXOzyUWbAWQYaSxFh7xpBg/viewform?usp=sharing" target="_blank">
+    <div class="modal-content">
+    <img src="assets\img\Index_Page_Admission_Popup-1024x1024.jpg" alt="Second Announcement">
   </div>
+    </a>
   <button class="close-btn" onclick="closePopup('popup2', null)">Close</button>
 </div>
 
