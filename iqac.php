@@ -28,20 +28,21 @@
         <!-- Left-side IQAC Navigation -->
         <nav id="iqac-nav">
             <ul>
-                <li><a href="IQAC/About_IQAC.html" class="iqac-link">About IQAC</a></li>
-                <li><a href="IQAC/AQAR.html" class="iqac-link">AQAR</a></li>
-                <li><a href="IQAC/Best_Practices.html" class="iqac-link">Best Practices</a></li>
-                <li><a href="IQAC/Feedback.html" class="iqac-link">Feedback</a></li>
-                <li><a href="IQAC/Gallery.html" class="iqac-link">Gallery</a></li>
-                <li><a href="IQAC/Institutional_Distinctiveness.html" class="iqac-link">Institutional Distinctiveness</a></li>
-                <li><a href="IQAC/IQAC_Committee_Members.html" class="iqac-link">IQAC Committee Members</a></li>
-                <li><a href="IQAC/IQAC_Minutes_And_ATR.html" class="iqac-link">IQAC Minutes And ATR</a></li>
-                <li><a href="IQAC/Quality_Initiatives.html" class="iqac-link">Quality Initiatives</a></li>
-                <li><a href="IQAC/SSR_Cycle_II_Report.html" class="iqac-link">SSR Cycle II Report</a></li>
-                <li><a href="IQAC/NIRF.html" class="iqac-link">NIRF</a></li>
-                <li><a href="IQAC/Templates.html" class="iqac-link">Templates</a></li>
-                <li><a href="IQAC/Internal_Complaint_Committee.html" class="iqac-link">Internal Complaint Committee</a></li>
-                <li><a href="IQAC/MOU's.html" class="iqac-link">MOU's</a></li>
+                <li><a href="./IQAC/About_IQAC.html" class="iqac-link">About IQAC</a></li>
+                <li><a href="./IQAC/AQAR.html" class="iqac-link">AQAR</a></li>
+                <li><a href="./IQAC/Best_Practices.html" class="iqac-link">Best Practices</a></li>
+                <li><a href="./IQAC/Feedback.html" class="iqac-link">Feedback</a></li>
+                <li><a href="./IQAC/Alumni.html" class="iqac-link">Alumni</a></li>
+                <li><a href="./IQAC/Gallery.html" class="iqac-link">Gallery</a></li>
+                <li><a href="./IQAC/Institutional_Distinctiveness.html" class="iqac-link">Institutional Distinctiveness</a></li>
+                <li><a href="./IQAC/IQAC_Committee_Members.html" class="iqac-link">IQAC Committee Members</a></li>
+                <li><a href="./IQAC/IQAC_Minutes_And_ATR.html" class="iqac-link">IQAC Minutes And ATR</a></li>
+                <li><a href="./IQAC/Quality_Initiatives.html" class="iqac-link">Quality Initiatives</a></li>
+                <li><a href="./IQAC/SSR_Cycle_II_Report.html" class="iqac-link">SSR Cycle II Report</a></li>
+                <li><a href="./IQAC/NIRF.html" class="iqac-link">NIRF</a></li>
+                <li><a href="./IQAC/Templates.html" class="iqac-link">Templates</a></li>
+                <li><a href="./IQAC/Internal_Complaint_Committee.html" class="iqac-link">Internal Complaint Committee</a></li>
+                <li><a href="./IQAC/MOU's.html" class="iqac-link">MOU's</a></li>
                 <!-- More Sub-Navigation Links -->
             </ul>
         </nav>

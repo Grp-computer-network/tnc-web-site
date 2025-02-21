@@ -164,7 +164,7 @@
         <div class="school-box">
             <img src="https://via.placeholder.com/150" alt="">
             <div class="school-content">
-                <div class="school-name" style="background-color: #0fc2c0;">TNC Centre for Research</div>
+                <div class="school-name" style="background-color: #0fc2c0;">TNC Centre For Research</div>
                 <div class="school-details">
                     <p>Dr.N.Santhana Vadivu</p>
                     <p>M.Com., M.B.A., M.Phil., Ph.D.,</p>
@@ -180,7 +180,7 @@
                 <div class="school-details">
                     <p>Mrs.Sathya</p>
                     <p>M.C.A., M.E., NET.,{PHD)</p>
-                    <p>Head E-goverence</p>
+                    <p>Head E-governence</p>
                 </div>
             </div>
         </div>
@@ -191,7 +191,7 @@
             <div class="school-content">
                 <div class="school-name" style="background-color: #008f8c;">TNC Incbation Cell</div>
                 <div class="school-details">
-                    <p>Mrs.Rajeshwari Joe</p>
+                    <p>Dr.A.J.Rajeshwari Joe</p>
                     <p>M.C.A., M.Phil., Ph.D.,</p>
                     <p>Incubation Cell </p>
                 </div>

@@ -21,12 +21,12 @@ include("reuseable_files/header.html");
     <!-- Left-side IQAC Navigation -->
     <nav id="iqac-nav">
         <ul>
-            <li><a href="academics/Course_offered.html" class="iqac-link">Cousre Offered</a></li>
-            <li><a href="academics/E-content.html" class="iqac-link">E-content</a></li>
-            <li><a href="academics/academics-calender.html" class="iqac-link">Aacdemics  calender</a></li>
-            <li><a href="academics/academics-collabration.html" class="iqac-link">Aacdemics collabration</a></li>
-            <li><a href="academics/statutes.html" class="iqac-link">statutes</a></li>
-            <li><a href="academics/libary.html" class="iqac-link">libary</a></li>
+            <li><a href="./academics/Course_offered.html" class="iqac-link">Cousre Offered</a></li>
+            <li><a href="./academics/E-content.html" class="iqac-link">E-content</a></li>
+            <li><a href="./academics/academics-calender.html" class="iqac-link">Aacdemics  calender</a></li>
+            <li><a href="./academics/academics-collabration.html" class="iqac-link">Aacdemics collabration</a></li>
+            <li><a href="./academics/statutes.html" class="iqac-link">statutes</a></li>
+            <li><a href="./academics/libary.html" class="iqac-link">libary</a></li>
         </ul>
     </nav>
 

@@ -23,9 +23,9 @@
         <!-- Left-side IQAC Navigation -->
         <nav id="iqac-nav">
             <ul>
-                <li><a href="research/research_guidelines.html" class="iqac-link">Research Guidelines</a></li>
-                <li><a href="research/phd_admission_guidelines.html" class="iqac-link">PH.D Admission Guidelines</a></li>
-                <li><a href="research/central_facilities.html" class="iqac-link">Central Facilities</a></li>
+                <li><a href="./research/research_guidelines.html" class="iqac-link">Research Guidelines</a></li>
+                <li><a href="./research/phd_admission_guidelines.html" class="iqac-link">PH.D Admission Guidelines</a></li>
+                <li><a href="./research/central_facilities.html" class="iqac-link">Central Facilities</a></li>
                 <!-- More Sub-Navigation Links -->
             </ul>
         </nav>
