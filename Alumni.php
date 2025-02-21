@@ -70,22 +70,22 @@
     <h1 class="text-2xl font-bold text-center mt-6">Alumni Photos</h1><br>
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 bg-white rounded-lg shadow-md p-3 mt-3">
       <div class="flex justify-center">
-          <img class="h-64 w-full object-cover rounded-lg" src="../COLLEGE_WEB/assets/alumni_img/alumni_img1.jpeg" alt="Image 1">
+          <img class="h-64 w-full object-cover rounded-lg" src="./assets/alumni_img/alumni_img1.jpeg" alt="Image 1">
       </div>
       <div class="flex justify-center">
-          <img class="h-64 w-full object-cover rounded-lg" src="../COLLEGE_WEB/assets/alumni_img/alumni_img2.jpeg" alt="Image 2">
+          <img class="h-64 w-full object-cover rounded-lg" src="./assets/alumni_img/alumni_img2.jpeg" alt="Image 2">
       </div>
       <div class="flex justify-center">
-          <img class="h-64 w-full object-cover rounded-lg" src="../COLLEGE_WEB/assets/alumni_img/alumni_img5.jpeg" alt="Image 4">
+          <img class="h-64 w-full object-cover rounded-lg" src="./assets/alumni_img/alumni_img5.jpeg" alt="Image 4">
       </div>
       <div class="flex justify-center">
-          <img class="h-64 w-full object-cover rounded-lg" src="../COLLEGE_WEB/assets/alumni_img/alumni_img6.jpeg" alt="Image 5">
+          <img class="h-64 w-full object-cover rounded-lg" src="./assets/alumni_img/alumni_img6.jpeg" alt="Image 5">
       </div>
       <div class="flex justify-center">
-          <img class="h-64 w-full object-cover rounded-lg" src="../COLLEGE_WEB/assets/alumni_img/alumni_img7.jpeg" alt="Image 6">
+          <img class="h-64 w-full object-cover rounded-lg" src="./assets/alumni_img/alumni_img7.jpeg" alt="Image 6">
       </div>
       <div class="flex justify-center">
-          <img class="h-64 w-full object-cover rounded-lg" src="../COLLEGE_WEB/assets/alumni_img/alumni_img4.jpeg" alt="Image 3">
+          <img class="h-64 w-full object-cover rounded-lg" src="./assets/alumni_img/alumni_img4.jpeg" alt="Image 3">
       </div>
     </div>
 
@@ -94,8 +94,8 @@
     <h1 class="text-2xl font-bold text-center mt-6">Alumni Interface</h1><br>
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-4 bg-white rounded-lg shadow-md p-4 mt-3">
     <div class="flex justify-center items-center space-x-4">
-        <img class="h-64 w-auto sm:w-4/5 md:w-3/4 lg:w-1/2 object-cover rounded-lg" src="../COLLEGE_WEB/assets/alumni_img/alumni_interface1.jpg" alt="Alumni Interface 1">
-        <img class="h-64 w-auto sm:w-4/5 md:w-3/4 lg:w-1/2 object-cover rounded-lg" src="../COLLEGE_WEB/assets/alumni_img/alumni_interface2.jpg" alt="Alumni Interface 2">
+        <img class="h-64 w-auto sm:w-4/5 md:w-3/4 lg:w-1/2 object-cover rounded-lg" src="./assets/alumni_img/alumni_interface1.jpg" alt="Alumni Interface 1">
+        <img class="h-64 w-auto sm:w-4/5 md:w-3/4 lg:w-1/2 object-cover rounded-lg" src="./assets/alumni_img/alumni_interface2.jpg" alt="Alumni Interface 2">
     </div>
 </div>
 

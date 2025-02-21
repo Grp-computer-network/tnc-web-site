@@ -242,7 +242,7 @@
     <!-- First Pop-up -->
 <div id="popup1" class="modal">
   <div class="modal-content">
-    <img src="first-image.jpg" alt="First Announcement">
+    <img src="assets\img\Index_Page_Admission_Popup-1024x1024.jpg" alt="First Announcement">
   </div>
   <button class="close-btn" onclick="closePopup('popup1', 'popup2')">Close</button>
 </div>
@@ -250,7 +250,7 @@
 <!-- Second Pop-up -->
 <div id="popup2" class="modal" style="display: none;">
   <div class="modal-content">
-    <img src="second-image.jpg" alt="Second Announcement">
+    <img src="assets\img\popup.jpeg" alt="Second Announcement">
   </div>
   <button class="close-btn" onclick="closePopup('popup2', null)">Close</button>
 </div>
