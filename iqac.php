@@ -65,9 +65,11 @@
     } else {
         // Default content when no submenu is selected
         echo '
-        <h2>About Us</h2>
-        <hr>
-        <p><b>Thiruthangal Nadar College</b> is a leading institution established in 1997...</p>';
+        <h2>Welcome to IQAC</h2>   <br>
+            <p style="font-size: 20px;padding: 10px; text-align:justify">Welcome to the official website of the Internal Quality Assurance Cell (IQAC) of [Thiruthangal Nadar College]. 
+            Our primary goal is to establish a culture of continuous improvement by ensuring that academic, administrative, and infrastructural processes meet the highest standards. We are committed to fostering a learning environment that promotes excellence in teaching, research, and overall institutional growth.
+            Through our various initiatives, we seek to engage all stakeholders in the process of self-assessment and feedback, which are crucial for driving innovation and quality enhancement. The IQAC aims to be driving forces in helping the institution achieve its long-term goals, in line with national and global standards.
+            We are always open to collaboration and feedback to help further our mission of quality improvement</p>';
     }
     ?>
 </div>
@@ -92,8 +94,3 @@
 </body>
 </html>
 
-<h2>Welcome to IQAC</h2>   <br>
-            <p style="font-size: 20px;padding: 10px; text-align:justify">Welcome to the official website of the Internal Quality Assurance Cell (IQAC) of [Thiruthangal Nadar College]. 
-            Our primary goal is to establish a culture of continuous improvement by ensuring that academic, administrative, and infrastructural processes meet the highest standards. We are committed to fostering a learning environment that promotes excellence in teaching, research, and overall institutional growth.
-            Through our various initiatives, we seek to engage all stakeholders in the process of self-assessment and feedback, which are crucial for driving innovation and quality enhancement. The IQAC aims to be driving forces in helping the institution achieve its long-term goals, in line with national and global standards.
-            We are always open to collaboration and feedback to help further our mission of quality improvement</p>
