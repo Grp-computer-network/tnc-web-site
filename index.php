@@ -49,38 +49,7 @@
             </video>
             
         </div>
-       <?php
-       include("./reuseable_files/db_reuse.php")
-       ?>
-        <!-- Right Section (Announcements & Events) -->
-        <div class="right-section">
-        <div class="right-section">
-        <div class="tabs">
-            <button id="tab-announcements" onclick="showSection('announcements')" class="tab-link active">ANNOUNCEMENTS</button>
-            <button id="tab-events" onclick="showSection('events')" class="tab-link">EVENTS</button>
-        </div>
-
-        <div id="announcements">
-            <div class="scroll-container">
-                <div class="scroll-content">
-                    <?php while ($row = $announcements_result->fetch_assoc()) { ?>
-                        <p class="announcement">📢 <?php echo $row['title']; ?> - <?php echo $row['date']; ?></p>
-                    <?php } ?>
-                </div>
-            </div>
-        </div>
-
-        <div id="events" class="hidden">
-            <div class="scroll-container">
-                <div class="scroll-content">
-                    <?php while ($row = $events_result->fetch_assoc()) { ?>
-                        <p class="event">🎉 <?php echo $row['title']; ?> - <?php echo $row['date']; ?></p>
-                    <?php } ?>
-                </div>
-            </div>
-        </div>
-    </div>
-    </div>
+      
         <!-- <a href="#" class="annual-calendar-btn">Annual Academic Calendar 2024-25 →</a> -->
     </div>
     </div>
@@ -113,7 +82,7 @@
 
             <div class="profile-card">
                 <img src="./assets/img/Thiru.A.Narayana-Murthy-Secretary.jpg" alt="Secretary">
-                <h3>Secretary</h3>
+                <h3>Secretary & Correspondent</h3>
                 <p>Thiru A.Narayana Murthy<br>M. Tech.</p>
                 <button onclick="secretary()">Message from Secretary</button>
             </div>
@@ -179,7 +148,7 @@
                 <div class="school-name" style="background-color: #0caba8;">TNC Centre for e-governance</div>
                 <div class="school-details">
                     <p>Mrs.Sathya</p>
-                    <p>M.C.A., M.E., NET.,{PHD)</p>
+                    <p>M.C.A., M.E., NET.,</p>
                     <p>Head E-governence</p>
                 </div>
             </div>
@@ -228,7 +197,7 @@
                 <div class="school-name" style="background-color:  #008f8c;">Student Development Council</div>
                 <div class="school-details">
                     <p>Mrs.k.Mangai</p>
-                    <p>M.com.,M.B.A.,NET.,ET.,(Ph.D)</p>
+                    <p>M.com.,M.B.A.,NET.,ET.,</p>
                     <p>SDC CO-oridinator</p>
                 </div>
             </div>

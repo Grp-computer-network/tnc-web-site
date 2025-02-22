@@ -26,13 +26,13 @@ include("./reuseable_files/header.html");
             <li><a href="./student_life/sports.html" class="iqac-link">Sports</a></li>
             <li><a href="./student_life/NCC.HTML" class="iqac-link">NCC</a></li>
             <li><a href="./student_life/NSS.html" class="iqac-link">NSS</a></li>
-            <li><a href="./student_life/ombudsperson.html" class="iqac-link">ombudsperson</a></li>
-            <li><a href="./student_life/internal_complaint_committee.html" class="iqac-link">Internal_Complaint_Committee</a></li>
+            <li><a href="./student_life/ombudsperson.html" class="iqac-link">Ombudsperson</a></li>
+            <li><a href="./student_life/internal_complaint_committee.html" class="iqac-link">Internal Complaint Committee</a></li>
             <li><a href="./student_life/anti-ragging-cell.html" class="iqac-link">Anti Ragging Committee</a></li>
-            <li><a href="./student_life/equal_opportunities.html" class="iqac-link">Equal_Opportunities</a></li>
+            <li><a href="./student_life/equal_opportunities.html" class="iqac-link">Equal Opportunity Cell</a></li>
             <li><a href="./student_life/student_grivenace.html" class="iqac-link">Student Grievenace Redressal</a></li>
             <li><a href="./student_life/Health-facilities.html" class="iqac-link">Health Facilities</a></li>
-            <li><a href="./student_life/diff-able.html" class="iqac-link">Facilities For Differently-Abled</li>
+            <li><a href="./student_life/diff-able.html" class="iqac-link">Facilities For Differently Abled</li>
     </nav>        
 
     <!-- Main Content Section where the IQAC content will be loaded -->

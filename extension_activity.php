@@ -23,7 +23,7 @@
         <nav id="iqac-nav">
             <ul>
                 <li><a href="./Extension-Activity/RRC.html" class="iqac-link">RRC</a></li>
-                <li><a href="./Extension-Activity/YRCLeoClub.html" class="iqac-link">YRC/LEO CLUB</a></li>
+                <li><a href="./Extension-Activity/YRCLeoClub.html" class="iqac-link">YRC LEO CLUB</a></li>
                 <!-- More Sub-Navigation Links -->
             </ul>
         </nav>

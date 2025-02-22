@@ -23,8 +23,8 @@ include("reuseable_files/header.html");
         <ul>
             <li><a href="./academics/Course_offered.html" class="iqac-link">Cousre Offered</a></li>
             <li><a href="./academics/E-content.html" class="iqac-link">E-Content</a></li>
-            <li><a href="./academics/academics-calender.html" class="iqac-link">Aacdemics  Calender</a></li>
-            <li><a href="./academics/academics-collabration.html" class="iqac-link">Aacdemics Collabration</a></li>
+            <li><a href="./academics/academics-calender.html" class="iqac-link">Academics  Calender</a></li>
+            <li><a href="./academics/academics-collabration.html" class="iqac-link">Academics Collabration</a></li>
             <li><a href="./academics/statutes.html" class="iqac-link">Statutes</a></li>
             <li><a href="./academics/libary.html" class="iqac-link">Libary</a></li>
         </ul>

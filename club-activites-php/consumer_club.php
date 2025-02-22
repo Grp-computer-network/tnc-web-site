@@ -8,11 +8,12 @@
     <?php
     include('../reuseable_files/style-php.html');
     ?>
+  <link href="css/tailwind.css" rel="stylesheet">
 </head>
 <body>
     
 <?php
-  include("../reuseable_files/header-php.html");
+  include("../reuseable_files/header.html");
   ?>
     <br>
     <h1 class="text-3xl font-semibold text-[#a30000] text-center">Consumer Club</h1>
