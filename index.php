@@ -49,7 +49,40 @@
             </video>
             
         </div>
-      
+      		
+			
+			 <?php
+       include("./reuseable_files/db_reuse.php")
+       ?>
+        <!-- Right Section (Announcements & Events) -->
+        <div class="right-section">
+        <div class="right-section">
+        <div class="tabs">
+            <button id="tab-announcements" onclick="showSection('announcements')" class="tab-link active">ANNOUNCEMENTS</button>
+            <button id="tab-events" onclick="showSection('events')" class="tab-link">EVENTS</button>
+        </div>
+
+        <div id="announcements">
+            <div class="scroll-container">
+                <div class="scroll-content">
+                    <?php while ($row = $announcements_result->fetch_assoc()) { ?>
+                        <p class="announcement">📢 <?php echo $row['title']; ?> - <?php echo $row['date']; ?></p>
+                    <?php } ?>
+                </div>
+            </div>
+        </div>
+
+        <div id="events" class="hidden">
+            <div class="scroll-container">
+                <div class="scroll-content">
+                    <?php while ($row = $events_result->fetch_assoc()) { ?>
+                        <p class="event">🎉 <?php echo $row['title']; ?> - <?php echo $row['date']; ?></p>
+                    <?php } ?>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
         <!-- <a href="#" class="annual-calendar-btn">Annual Academic Calendar 2024-25 →</a> -->
     </div>
     </div>
